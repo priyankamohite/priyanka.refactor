@@ -78,7 +78,7 @@ public class RajaMantri extends Activity {
 	static String player_two = "";
 	static String player_three = "";
 	static String player_four = "";
-	static int i=0,j=0,k=0,l=0;
+	static int i=j=k=l=0;
 	static int p_one_score = 0;
 	static int p_two_score = 0;
 	static int p_three_score = 0;
@@ -1092,13 +1092,13 @@ public class RajaMantri extends Activity {
     			p_two_score=j;
     			if(player_three_role.equals("RAJA")){
     				
-    				k = k+_one00;
+    				k = k+100;
     				l = l+50;
     				p_three_score=k;
     				p_four_score=l;
     			}else{
     				
-    				l = l+_one00;
+    				l = l+100;
     				k = k+50;
     				p_four_score=l;
     				p_three_score=k;
@@ -1112,13 +1112,13 @@ public class RajaMantri extends Activity {
     			
     			if(player_two_role.equals("RAJA")){
     				
-    				j = j+_one00;
+    				j = j+100;
     				l = l+50;
     				p_two_score=j;
     				p_four_score=l;
     			}else{
     				
-    				l = l+_one00;
+    				l = l+100;
     				j = j+50;
     				p_four_score=l;
     				p_two_score=j;
@@ -1131,13 +1131,13 @@ public class RajaMantri extends Activity {
     			
     			if(player_three_role.equals("RAJA")){
     				
-    				k = k+_one00;
+    				k = k+100;
     				j = j+50;
     				p_two_score=j;
     				p_three_score=k;
     			}else{
     				
-    				j = j+_one00;
+    				j = j+100;
     				k = k+50;
     				p_three_score=k;
     				p_two_score=j;
@@ -1159,17 +1159,17 @@ public class RajaMantri extends Activity {
 			btnPod_four.setBackgroundResource(R.drawable.podopen);
 			if(player_two_role.equals("CHOR"))
 			{
-				j = j+_two5;
+				j = j+25;
 			p_two_score=j;
 			if(player_three_role.equals("RAJA")){
 				
-				k = k+_one00;
+				k = k+100;
 				l = l+50;
 				p_three_score=k;
 				p_four_score=l;
 			}else{
 				
-				l = l+_one00;
+				l = l+100;
 				k = k+50;
 				p_four_score=l;
 				p_three_score=k;
@@ -1177,19 +1177,19 @@ public class RajaMantri extends Activity {
 			}
 		if(player_three_role.equals("CHOR"))
 			{
-			k=k+_two5;
+			k=k+25;
 			p_three_score=k;
 			
 			
 			if(player_two_role.equals("RAJA")){
 				
-				j = j+_one00;
+				j = j+100;
 				l = l+50;
 				p_two_score=j;
 				p_four_score=l;
 			}else{
 				
-				l = l+_one00;
+				l = l+100;
 				j = j+50;
 				p_four_score=l;
 				p_two_score=j;
@@ -1197,18 +1197,18 @@ public class RajaMantri extends Activity {
 			}
 		if(player_four_role.equals("CHOR"))
 			{
-			l=l+_two5;
+			l=l+25;
 			p_four_score=l;
 			
 			if(player_three_role.equals("RAJA")){
 				
-				k = k+_one00;
+				k = k+100;
 				j = j+50;
 				p_two_score=j;
 				p_three_score=k;
 			}else{
 				
-				j = j+_one00;
+				j = j+100;
 				k = k+50;
 				p_three_score=k;
 				p_two_score=j;
@@ -1239,14 +1239,14 @@ public class RajaMantri extends Activity {
     			
     			if(player_three_role.equals("RAJA")){
     			
-    				k = k+_one00;
+    				k = k+100;
     				l = l+50;
     				p_three_score=k;
     				p_four_score=l;
     			
     			}else{
     				
-    				l = l+_one00;
+    				l = l+100;
     				k = k+50;
     				p_four_score=l;
     				p_three_score=k;
@@ -1261,14 +1261,14 @@ public class RajaMantri extends Activity {
     			
     			if(player_one_role.equals("RAJA")){
     				
-    				i = i+_one00;
+    				i = i+100;
     				l = l+50;
     				p_one_score=i;
     				p_four_score=l;
     				
     			}else{
     				
-    				l = l+_one00;
+    				l = l+100;
     				i = i+50;
     				p_one_score=i;
     				p_four_score=l;
@@ -1283,14 +1283,14 @@ public class RajaMantri extends Activity {
     			
     			if(player_one_role.equals("RAJA")){
     				
-    				i = i+_one00;
+    				i = i+100;
     				k = k+50;
     				p_one_score=i;
         			p_three_score=k;
     				
     			}else{
     				
-    				k = k+_one00;
+    				k = k+100;
     				i = i+50;
     				p_one_score=i;
         			p_three_score=k;
@@ -1317,19 +1317,19 @@ public class RajaMantri extends Activity {
 			btnPod_four.setBackgroundResource(R.drawable.podopen);
 			if(player_one_role.equals("CHOR"))
 			{
-				i = i+_two5;
+				i = i+25;
 			p_one_score=i;
 			
 			if(player_three_role.equals("RAJA")){
 			
-				k = k+_one00;
+				k = k+100;
 				l = l+50;
 				p_three_score=k;
 				p_four_score=l;
 			
 			}else{
 				
-				l = l+_one00;
+				l = l+100;
 				k = k+50;
 				p_four_score=l;
 				p_three_score=k;
@@ -1338,20 +1338,20 @@ public class RajaMantri extends Activity {
 			}
 		if(player_three_role.equals("CHOR"))
 			{
-			k = k+_two5;
+			k = k+25;
 			p_three_score=k;
 			
 			
 			if(player_one_role.equals("RAJA")){
 				
-				i = i+_one00;
+				i = i+100;
 				l = l+50;
 				p_one_score=i;
 				p_four_score=l;
 				
 			}else{
 				
-				l = l+_one00;
+				l = l+100;
 				i = i+50;
 				p_one_score=i;
 				p_four_score=l;
@@ -1361,19 +1361,19 @@ public class RajaMantri extends Activity {
 			}
 		if(player_four_role.equals("CHOR"))
 			{
-			l = l+_two5;
+			l = l+25;
 			p_four_score=l;
 			
 			if(player_one_role.equals("RAJA")){
 				
-				i = i+_one00;
+				i = i+100;
 				k = k+50;
 				p_one_score=i;
     			p_three_score=k;
 				
 			}else{
 				
-				k = k+_one00;
+				k = k+100;
 				i = i+50;
 				p_one_score=i;
     			p_three_score=k;
@@ -1408,7 +1408,7 @@ public class RajaMantri extends Activity {
     			
     			if(player_two_role.equals("RAJA")){
     				
-    				j = j+_one00;
+    				j = j+100;
     				l = l+50;
     				p_two_score=j;
         			p_four_score=l;
@@ -1416,7 +1416,7 @@ public class RajaMantri extends Activity {
     				
     			}else{
     				
-    				l = l+_one00;
+    				l = l+100;
     				j = j+50;
     				p_two_score=j;
         			p_four_score=l;
@@ -1433,7 +1433,7 @@ public class RajaMantri extends Activity {
     			
     			if(player_one_role.equals("RAJA")){
     				
-    				i = i+_one00;
+    				i = i+100;
     				l = l+50;
     				p_one_score=i;
     				p_four_score=l;
@@ -1441,7 +1441,7 @@ public class RajaMantri extends Activity {
     			}else{
     				
     				i = i+50;
-    				l = l+_one00;
+    				l = l+100;
     				p_one_score=i;
     				p_four_score=l;
     				
@@ -1455,7 +1455,7 @@ public class RajaMantri extends Activity {
     			
     			if(player_two_role.equals("RAJA")){
     				
-    				j = j+_one00;
+    				j = j+100;
     				i = i+50;
     				p_one_score=i;
         			p_two_score=j;
@@ -1463,7 +1463,7 @@ public class RajaMantri extends Activity {
     			}else{
     				
     				j = j+50;
-    				i = i+_one00;
+    				i = i+100;
     				p_one_score=i;
         			p_two_score=j;
     				
@@ -1487,12 +1487,12 @@ public class RajaMantri extends Activity {
 			btnPod_four.setBackgroundResource(R.drawable.podopen);
 			if(player_one_role.equals("CHOR"))
 			{
-				i = i+_two5;
+				i = i+25;
 			p_one_score=i;
 			
 			if(player_two_role.equals("RAJA")){
 				
-				j = j+_one00;
+				j = j+100;
 				l = l+50;
 				p_two_score=j;
     			p_four_score=l;
@@ -1500,7 +1500,7 @@ public class RajaMantri extends Activity {
 				
 			}else{
 				
-				l = l+_one00;
+				l = l+100;
 				j = j+50;
 				p_two_score=j;
     			p_four_score=l;
@@ -1511,13 +1511,13 @@ public class RajaMantri extends Activity {
 			}
 		if(player_two_role.equals("CHOR"))
 			{
-			j = j+_two5;
+			j = j+25;
 			p_two_score=j;
 			
 			
 			if(player_one_role.equals("RAJA")){
 				
-				i = i+_one00;
+				i = i+100;
 				l = l+50;
 				p_one_score=i;
 				p_four_score=l;
@@ -1525,7 +1525,7 @@ public class RajaMantri extends Activity {
 			}else{
 				
 				i = i+50;
-				l = l+_one00;
+				l = l+100;
 				p_one_score=i;
 				p_four_score=l;
 				
@@ -1534,12 +1534,12 @@ public class RajaMantri extends Activity {
 			}
 		if(player_four_role.equals("CHOR"))
 			{
-			l = l+_two5;
+			l = l+25;
 			p_four_score=l;
 			
 			if(player_two_role.equals("RAJA")){
 				
-				j = j+_one00;
+				j = j+100;
 				i = i+50;
 				p_one_score=i;
     			p_two_score=j;
@@ -1547,7 +1547,7 @@ public class RajaMantri extends Activity {
 			}else{
 				
 				j = j+50;
-				i = i+_one00;
+				i = i+100;
 				p_one_score=i;
     			p_two_score=j;
 				
@@ -1581,7 +1581,7 @@ public class RajaMantri extends Activity {
     			
     			if(player_two_role.equals("RAJA")){
     				
-    				j = j+_one00;
+    				j = j+100;
     				k = k+50;
     				p_two_score=j;
         			p_three_score=k;
@@ -1589,7 +1589,7 @@ public class RajaMantri extends Activity {
     			}else{
     				
     				j = j+50;
-    				k = k+_one00;
+    				k = k+100;
     				p_two_score=j;
         			p_three_score=k;
     				
@@ -1603,14 +1603,14 @@ public class RajaMantri extends Activity {
     			
     			if(player_one_role.equals("RAJA")){
     				
-    				i = i+_one00;
+    				i = i+100;
     				k = k+50;
     				p_one_score=i;
     				p_three_score=k;
     			}else{
     				
     				i = i+50;
-    				k = k+_one00;
+    				k = k+100;
     				p_one_score=i;
     				p_three_score=k;
     				
@@ -1624,14 +1624,14 @@ public class RajaMantri extends Activity {
     			
     			if(player_one_role.equals("RAJA")){
     				
-    				i = i+_one00;
+    				i = i+100;
     				j = j+50;
     				p_one_score=i;
         			p_two_score=j;
     			}else{
     				
     				i = i+50;
-    				j = j+_one00;
+    				j = j+100;
     				p_one_score=i;
         			p_two_score=j;
     				
@@ -1655,13 +1655,13 @@ public class RajaMantri extends Activity {
 			btnPod_four.setBackgroundResource(R.drawable.podopen);
 			if(player_one_role.equals("CHOR"))
 			{
-				i = i+_two5;
+				i = i+25;
 			p_one_score=i;
 			
 			
 			if(player_two_role.equals("RAJA")){
 				
-				j = j+_one00;
+				j = j+100;
 				k = k+50;
 				p_two_score=j;
     			p_three_score=k;
@@ -1669,7 +1669,7 @@ public class RajaMantri extends Activity {
 			}else{
 				
 				j = j+50;
-				k = k+_one00;
+				k = k+100;
 				p_two_score=j;
     			p_three_score=k;
 				
@@ -1677,20 +1677,20 @@ public class RajaMantri extends Activity {
 			}
 		if(player_two_role.equals("CHOR"))
 			{
-			j=j+_two5;
+			j=j+25;
 			p_two_score=j;
 			
 			
 			if(player_one_role.equals("RAJA")){
 				
-				i = i+_one00;
+				i = i+100;
 				k = k+50;
 				p_one_score=i;
 				p_three_score=k;
 			}else{
 				
 				i = i+50;
-				k = k+_one00;
+				k = k+100;
 				p_one_score=i;
 				p_three_score=k;
 				
@@ -1699,19 +1699,19 @@ public class RajaMantri extends Activity {
 			}
 		if(player_three_role.equals("CHOR"))
 			{
-			k=k+_two5;
+			k=k+25;
 			p_three_score=k;
 			
 			if(player_one_role.equals("RAJA")){
 				
-				i = i+_one00;
+				i = i+100;
 				j = j+50;
 				p_one_score=i;
     			p_two_score=j;
 			}else{
 				
 				i = i+50;
-				j = j+_one00;
+				j = j+100;
 				p_one_score=i;
     			p_two_score=j;
 				
