@@ -3,15 +3,13 @@ public class Rajamantri extends Activity {
 	
 	@Override
 	public void onBackPressed() {
-		
-
-		
+	
 	}
 
 	@Override
 	protected void onPostResume() {
 		// TODO Auto-generated method stub
-		super.onpostresume();
+		super.onPostResume();
 	}
 
 	@Override
@@ -125,56 +123,21 @@ public class Rajamantri extends Activity {
     public void onRestart(){
     	
     	super.onRestart();
-    /*	player1_name = "" ;
-    	player2_name = "";
-    	player3_name = "";
-    	player4_name = "";
-    	guess = false;
-    	player1 = "";
-    	player2 = "";
-    	player3 = "";
-    	player4 = "";
-    	i=0;j=0;k=0;l=0;
-    	p1score = 0;
-    	p2score = 0;
-    	p3score = 0;
-    	p4score = 0;*/
-    	
     	
     }
     
     public void onResume(){
     	
     	super.onResume();
-    	/*player1_name = "" ;
-    	player2_name = "";
-    	player3_name = "";
-    	player4_name = "";
-    	guess = false;
-    	player1 = "";
-    	player2 = "";
-    	player3 = "";
-    	player4 = "";
-    	i=0;j=0;k=0;l=0;
-    	p1score = 0;
-    	p2score = 0;
-    	p3score = 0;
-    	p4score = 0;*/
-    	
-    	
+    
     }
-
-
-
 
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.welcome);
       
-        i = 0;
-        j = 0;
-        k = 0;
-        l = 0;
+        i = j = k = l = 0;
+       
         btnHelp = (Button)findViewById(R.id.btnHelp);
         btnHelp.setOnClickListener(new OnClickListener() {
 			
