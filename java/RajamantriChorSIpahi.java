@@ -5,7 +5,7 @@ public class Rajamantri extends Activity {
 	public void onBackPressed() {
 	
 	}
-
+	//comment just for demo
 	@Override
 	protected void onPostResume() {
 		// TODO Auto-generated method stub
