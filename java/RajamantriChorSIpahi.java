@@ -6,6 +6,7 @@ public class Rajamantri extends Activity {
 	
 	}
 	//comment just for demo
+	////comment just for demo
 	@Override
 	protected void onPostResume() {
 		// TODO Auto-generated method stub
